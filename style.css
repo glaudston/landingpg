@@ -1,5 +1,4 @@
 body {
-    background-color: antiquewhite;
 }
 header {
     
@@ -21,4 +20,16 @@ form{background-color: aquamarine;
 main { 
     display: flex;
     flex-direction: row;
+    width: 1000px
+}
+article{ width:;
+
+}
+p{
+    max-width: 500px;
+}
+img{
+    display: end;
+    width: 700px;
+    height: 500px;
 }
