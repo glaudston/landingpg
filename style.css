@@ -9,9 +9,10 @@ header {
 }
 li{display: inline-block;
    margin: 20px;
+   
 }
-}
-form{background-color: aquamarine;
+form{
+    background-color: aquamarine;
     width: 400px;
     height: 150px;
     text-align: center;
@@ -20,7 +21,8 @@ form{background-color: aquamarine;
 main { 
     display: flex;
     flex-direction: row;
-    width: 1000px
+    width: 1000px;
+    margin-left: 5%
 }
 article{ width:;
 
@@ -29,7 +31,14 @@ p{
     max-width: 500px;
 }
 img{
-    display: end;
-    width: 700px;
-    height: 500px;
+  align-items: flex-end;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+a{
+    color: black;
+}
+a:hover{ 
+    color: green;
+    transition: 0.5s all ;
 }
