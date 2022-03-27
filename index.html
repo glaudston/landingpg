@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <script src="./enviar.js"></script>
 </head>
 <body>
     <header> 
@@ -36,9 +37,9 @@
 
 <form action="">
     <h4>Se Cadastre para receber novidades</h4>
-    <input type="text" placeholder="nome"><br><br>
-   <input type="email" placeholder="E-mail"><br><br>
-   <input id="submit" type="submit" value="enviar >">
+    <input id="nome" type="text" placeholder="nome"><br><br>
+   <input id="email" type="email" placeholder="E-mail"><br><br>
+   <input onclick="enviar()" id="submit" type="submit" value="enviar >">
 </form>
         </aside> 
         <article>
