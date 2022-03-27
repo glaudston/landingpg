@@ -4,5 +4,5 @@ var email = document.getElementById ('email').value
 var destino = 'glaudstonalan@gmail.com '
 
 alert(`nome: ${nome},  E-mail : ${email} `);
-console.log('ola')
+
 }
