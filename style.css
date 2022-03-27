@@ -3,7 +3,7 @@
     src: url('sophia-reign-sans.ttf') format("truetype");}
 header {
     width: px;
-    height: 150px;
+    height: 170px;
     background-color: #008037;
     margin-top: 1%;
     display: flex;
@@ -52,11 +52,10 @@ a:hover{
     color: white;
     transition: 0.5s all ;
 }
-h1{
+h1{ letter-spacing: 12px;
     font-family: 'semeia';
     font-size: 6em;
-    margin-top: %;
-    margin-left: 90%;
+    margin-left: 50%;
 }
 h2{
     font-family: 'semeia';
