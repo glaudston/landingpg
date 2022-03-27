@@ -1,3 +1,6 @@
+@font-face {
+    font-family: 'semeia' ;
+    src: url('sophia-reign-sans.ttf') format("truetype");}
 body {
 }
 header {
@@ -13,11 +16,14 @@ li{display: inline-block;
    
 }
 form{
-    background-color: rgb(255, 255, 255);
+    background-color: #008037;
     width: 400px;
-    height: 250px;
+    height: 300px;
     text-align: center;
  padding-top: 5%;
+ box-shadow: black;
+ border-style: solid;
+ border-radius: 50px;
 }
 main { 
     display: flex;
@@ -25,11 +31,9 @@ main {
     width: 1000px;
     margin-left: 5%
 }
-article{ width:;
-
-}
 p{
     max-width: 500px;
+    font-family:cursive  ;
 }
 img{
     width: 600px;
@@ -42,15 +46,17 @@ a{
     color: black;
 }
 a:hover{ 
-    color: green;
+    color: #008037;
     transition: 0.5s all ;
 }
-h1{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 5em;
+h1{
+    font-family: 'semeia';
+    font-size: 6em;
     margin-top: 4%;
+    margin-left: 10%;
 }
 h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'semeia';
     margin-top: 1%;
     text-align: right;
     
@@ -58,3 +64,16 @@ h2{
 h4{
     font-size : 2em
 }
+input{
+ border-radius: 30px;
+ height: 25px;
+ width: 60%;
+ text-align: center;
+}
+#submit{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 13%;
+}
+
